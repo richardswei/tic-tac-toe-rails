@@ -81,7 +81,6 @@ def player_turn(current_board, symbol)
 	current_board.show_available_positions
 	position = prompt(current_board)
 	current_board.set_move(position, symbol)
-	current_board.show_values
 end
 
 
